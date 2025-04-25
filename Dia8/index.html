@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juego de Cartas - Mejor de 5</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Juego de Cartas: Carta alta</h1>
+  <button id="jugar">Sacar Carta</button>
+  <button id="instrucciones">Instrucciones</button>
+  <div id="instruccionesocultar" style="display:none; margin-top: 20px;">
+    <p>Da click en sacar carta, repite el proceso hasta que gane el mejor de 5 rondas, despues se reiniciara automaticamente</p>
+    </div>
+  <div class="card-container">
+    <div>
+      <h3>Usuario</h3>
+      <img id="usuario-carta" class="card">
+    </div>
+    <div>
+      <h3>Máquina</h3>
+      <img id="maquina-carta" class="card">
+    </div>
+  </div>
+  <div id="resultado"></div>
+  <div id="puntaje"></div>
+  <script src="./js/script.js"></script>
+</body>
+</html>
