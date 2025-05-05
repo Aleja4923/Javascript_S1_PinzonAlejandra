@@ -1,0 +1,32 @@
+@import url(./variables.css);
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "fuente";
+}
+
+h2 {
+    color: white;
+}
+
+.searchsection h2 {
+    padding: 30px;
+    text-align: center;
+}
+
+.searchsection h2 {
+    margin-bottom: 5px;
+    font-size: 40px;
+}
+
+#description {
+    color: azure;
+}
+
+.searchbar input {
+    margin-top: 20px;
+    border: 1px solid var;
+    border-radius: 2px;
+}
