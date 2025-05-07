@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mis Heroes</h1>
+        
+        <h2>Gestion de Heroes</h2>
+        
+        <div class="formulario">
+            <form>
+                <div class="form-grid">
+                    <div class="form-group">
+                        <div class="nombres">Nombre Personaje</div>
+                        <input type="text" id="nombre-personaje">
+                    </div>
+                    
+                    <div class="form-group">
+                        <div class="nombres">Nombre Actor</div>
+                        <input type="text" id="nombreactor">
+                    </div>
+                    
+                    <div class="form-group">
+                        <div class="nombres">Edad Actor</div>
+                        <input type="number" id="edadactor">
+                    </div>
+                    
+                    <div class="form-group">
+                        <div class="nombres">Ubicacion</div>
+                        <input type="text" id="ubicacion">
+                        <div id="nombrechiquito">Nombre de la ciudad de origen</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <div class="nombres">Poster</div>
+                        <input type="text" id="poster">
+                    </div>
+                    
+                    <div class="form-group">
+                        <div class="nombres">Ubicacion</div>
+                        <input type="date" id="fecha">
+                    </div>
+                    
+                    <div class="form-group">
+                        <div class="nombres">Productora</div>
+                        <select id="productora">
+                            <option value="marvel">Marvel</option>
+                            <option value="dc">DC</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="buttons">
+                    <button id="nuevo">Nuevo Heroe</button>
+                    <button id="cancelar">Cancelar</button>
+                    <button id="guardar">Guardar Heroe</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="./js/script.js"></script>
+</html>
