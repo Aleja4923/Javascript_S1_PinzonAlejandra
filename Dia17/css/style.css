@@ -1,0 +1,27 @@
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+
+.hero-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: var(--primary-dark);
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+  color: var(--text-light);
+}
+
+
+.popular-pets h2 {
+  margin-bottom: 20px;
+  color: var(--primary-dark);
+  font-size: 1.8rem;
+}

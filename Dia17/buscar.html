@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Mascotas - PacoPets</title>
+    <link rel="stylesheet" href="./css/buscar.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>PacoPets</h1>
+            <img src="/placeholder.svg?height=40&width=40" alt="Logo PacoPets">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li class="active"><a href="buscar.html">Buscar</a></li>
+                <li><a href="favoritos.html">Favoritos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="search-section">
+            <h2>Buscar Mascotas</h2>
+            <div class="search-container">
+                <div class="search-box">
+                    <input type="text" id="search-input" placeholder="Buscar por nombre o especie...">
+                    <button id="search-button"><i class="fas fa-search"></i></button>
+                </div>
+                <div class="filters">
+                    <div class="filter-group">
+                        <label for="species-filter">Especie</label>
+                        <select id="species-filter">
+                            <option value="">Todas</option>
+                            <option value="perro">Perros</option>
+                            <option value="gato">Gatos</option>
+                            <option value="conejo">Conejos</option>
+                            <option value="ave">Aves</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="age-filter">Edad</label>
+                        <select id="age-filter">
+                            <option value="">Todas</option>
+                            <option value="cachorro">Cachorro</option>
+                            <option value="joven">Joven</option>
+                            <option value="adulto">Adulto</option>
+                            <option value="senior">Senior</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="location-filter">Ubicación</label>
+                        <select id="location-filter">
+                            <option value="">Todas</option>
+                            <option value="madrid">Madrid</option>
+                            <option value="barcelona">Barcelona</option>
+                            <option value="valencia">Valencia</option>
+                            <option value="sevilla">Sevilla</option>
+                        </select>
+                    </div>
+                    <button id="apply-filters" class="btn-primary">Aplicar filtros</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="search-results">
+            <h2>Resultados</h2>
+            <div class="pets-grid">
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

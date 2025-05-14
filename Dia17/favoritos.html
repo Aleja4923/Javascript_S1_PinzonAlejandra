@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favoritos - PacoPets</title>
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/favoritos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>PacoPets</h1>
+            <img src="/placeholder.svg?height=40&width=40" alt="Logo PacoPets">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="buscar.html">Buscar</a></li>
+                <li class="active"><a href="favoritos.html">Favoritos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="favorites-section">
+            <h2>Mis Mascotas Favoritas</h2>
+            <div class="favorites-container">
+                <div class="pets-grid" id="favorites-grid">
+                </div>
+                <div class="empty-favorites" id="empty-favorites">
+                    <img src="/placeholder.svg?height=150&width=150" alt="Sin favoritos">
+                    <h3>No tienes mascotas favoritas</h3>
+                    <p>Explora nuestro catálogo y marca tus mascotas favoritas</p>
+                    <a href="buscar.html" class="btn-primary">Buscar mascotas</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

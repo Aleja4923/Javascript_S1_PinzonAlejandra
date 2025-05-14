@@ -1,0 +1,38 @@
+/* Estilos específicos para la página de favoritos */
+
+.favorites-section {
+  margin-bottom: 30px;
+}
+
+.favorites-section h2 {
+  margin-bottom: 20px;
+  color: var(--primary-dark);
+  font-size: 1.8rem;
+}
+
+.favorites-container {
+  margin-top: 20px;
+}
+
+.empty-favorites {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.empty-favorites img {
+  margin-bottom: 20px;
+  opacity: 0.7;
+}
+
+.empty-favorites h3 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.empty-favorites p {
+  margin-bottom: 20px;
+  color: var(--text-light);
+}
